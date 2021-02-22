@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">STEM School</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#campus life">CAMPUS LIFE</a></li>
+                <li><a href="#facility">ACTIVITIES</a></li>
+                <li><a href="#activities">OUR ALUMNI</a></li>
+                <li><a href="#FAQ's">FAQ's</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="announcement">
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+            *** Feel free to ask queries on stemschool2016@gmail.com ***
+        </marquee>
+    </div>
+
+    <iframe id="video" width="1500" height="650" src="https://www.youtube.com/embed/srw_Fr_wWv0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <div class="container">
+        <div class="page-header" id="about">
+            <h2 class="text capitalized">Campus Life</h2>
+
+            <div class="row">
+                <div class="tavel_mainDiv">
+                    <img class="img-responsive" width="550" height="550" src="http://stemschool.in/wp-content/uploads/2020/04/ASM-GUNTUR_V3-web.jpg">
+                    <h4 class="text capitalize"><kbd>school swimming pool</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Is going to be established on the year 2020</h5>
+                    <hr>
+                    <p class="text-muted text-left"></p>
+                </div>
+
+                <div class="tavel_mainDiv">
+                    <img class="img-responsive" width="550" height="550" src="http://stemschool.in/wp-content/uploads/2020/02/library-img.jpg">
+                    <h4 class="text capitalize"><kbd>school library</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was established on the year 2016</h5>
+                    <hr>
+                    <p class="text-muted text-left"></p>
+                </div>
+
+                <div class="tavel_mainDiv">
+                    <img class="img-responsive" width="550" height="550" src="http://stemschool.in/wp-content/uploads/2020/02/computer-img.jpg">
+                    <h4 class="text capitalize"><kbd>school Computer Lab</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was established on the year 2016</h5>
+                    <hr>
+                    <p class="text-muted text-left"></p>
+                </div>
+
+                <div class="tavel_mainDiv">
+                    <img class="img-responsive" width="550" height="550" src="http://stemschool.in/wp-content/uploads/2020/02/3d-lab.jpg">
+                    <h4 class="text capitalize"><kbd>school 3D lab</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was established on the year 2016</h5>
+                    <hr>
+                    <p class="text-muted text-left"></p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="page-header" id="movies">
+            <h2 class="text-capitalize">Activities</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_activities">
+            <span class="glyphicon glyphicon-film"></span>Music<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="school_activities" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"><img src="guitar.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <h5 class="text-success text-left text-capitalize">MUSIC
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+            </h5>
+            <p></p>
+        </div>
+
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#cooking_baking">
+            <span class="glyphicon glyphicon-film"></span>Cooking/Baking<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="cooking_baking" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"><img src="COOKING.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <h5 class="text-success text-left text-capitalize">Cooking/Baking
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+            </h5>
+            <p></p>
+        </div>
+
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#debating">
+            <span class="glyphicon glyphicon-film"></span>Debating<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="debating" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"><img src="debating.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <h5 class="text-success text-left text-capitalize">Debating
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+            </h5>
+            <p></p>
+        </div>
+
+
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h2 class="text-capitalize">our alumni</h2>
+        </div>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h2 class="text-capitalize">OUR ALUMNI</h2>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-toggle="modal" data-target="#Director_and_Correspondent"><img class="img-responsive" src="http://stemschool.in/wp-content/uploads/2020/02/Director-and-Correspondent-300x400.jpg">
+            <hr>
+            <p class="text-primary">Director and Correspondent</p>
+        </div>
+
+        <div class="modal fade" id="Director_and_Correspondent">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Director and Correspondent</h4>
+                    </div>
+                    <div class="modal-body"><img class="img-responsive" src="http://stemschool.in/wp-content/uploads/2020/02/Director-and-Correspondent-300x400.jpg">
+                        <p>Director and Correspondent
+                            Rev. Yeruva J. R. Bharat Reddy, our present Director and Correspondent took charge of his responsibilities on June 02, 2019.<br>
+                            <a target="_blank" href="http://stemschool.in/about-us/directors-message/"><b>KNOW MORE</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-toggle="modal" data-target="#Chairman_and_President"><img class="img-responsive" src="http://stemschool.in/wp-content/uploads/2020/02/Chairman-1-1-348x400.jpg">
+            <hr>
+            <p class="text-primary">Chairman and President</p>
+
+        </div>
+
+        <div class="modal fade" id="Chairman_and_President">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Chairman and President</h4>
+                    </div>
+                    <div class="modal-body"><img class="img-responsive" src="http://stemschool.in/wp-content/uploads/2020/02/Chairman-1-1-348x400.jpg">
+                        <p>Chairman and President
+                            His Excellency Most. Rt. Rev. Dr. Chinnabathini Bhagyaiah, the Bishop of Guntur, the present Chairman and President, succeeded emeritus Bishop Most. Rt. Rev. Dr. Gali Bali on 8th September 2016. .<br>
+                            <a target="_blank" href="http://stemschool.in/about-us/chairman-and-president/"><b>KNOW MORE</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-toggle="modal" data-target="#the_founder"><img class="img-responsive" src="http://stemschool.in/wp-content/uploads/2020/02/Founder-Chairman-scaled-250x350.jpg">
+            <hr>
+            <p class="text-primary">The Founder</p>
+
+        </div>
+
+        <div class="modal fade" id="the_founder">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">The Founder</h4>
+                    </div>
+                    <div class="modal-body"><img class="img-responsive" src="http://stemschool.in/wp-content/uploads/2020/02/Founder-Chairman-scaled-250x350.jpg">
+                        <p>The founder
+                            To realize the towering function of education, STEM SCHOOL, which stands on the rung of the ladder of excellence today, came into being on 01 June 2016 under the precious patronage of His Excellency Rt. Rev. Dr. Gali Bali.<br>
+                            <a target="_blank" href="http://stemschool.in/about-us/the-founder/"><b>KNOW MORE</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="container">
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+                <h2 class="text-capitalize">contact us</h2>
+            </div>
+
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.107098659378!2d80.42445741486176!3d16.31747108872792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a358a9df1a89bbd%3A0xabfb4809269efed5!2sSTEM%20School!5e0!3m2!1sen!2sin!4v1604986319632!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <span></span>
+            <div id="details">
+                <img src="https://images.app.goo.gl/a91yk9FRDwXnirEP6" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                <h3>Principle Name: </h3>
+                <h4>REV.YERUVA J.R.BHARAT REDDY</h4>
+                <div class="contact_1">
+                    <a href="mailto:school@gmail.com?Subject=Hi">
+                        <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;stemschool2016@gmail.com</h5>
+                    </a>
+                    <a href="#">
+                        <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;919346494646</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body></html>
